@@ -1,5 +1,5 @@
 {
-  "name": "react-lib",
+  "name": "@local/my-react-lib",
   "version": "1.0.0",
   "description": "Uma biblioteca base para React",
   "source": "src/index.ts",
