@@ -9,12 +9,25 @@
   "repository": "git@github.com:fborgesnic/base-libs.git",
   "author": "Felipe Borges <fborges@nic.br>",
   "license": "MIT",
-  "dependencies": {
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "parcel watch",
+    "build": "parcel build"
+  },
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@parcel/packager-ts": "2.9.1",
+    "@parcel/transformer-typescript-types": "2.9.1",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
     "parcel": "^2.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.1.3"
   }
 }
